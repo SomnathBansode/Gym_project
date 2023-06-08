@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym Project By Somnath_Bansode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="home"></p>
+    <header>
+  
+        <nav class="navbar">
+            <ul id="nav">
+                <li id="logo">Somnath's Gym</li>
+                <li class="navitems"> <a href="#home"> Home</li></a>
+                <li class="navitems"> <a href="#about"> About</li></a>
+                <li class="navitems"> <a href="#chal"> challenges</li></a>
+                <li class="navitems"> <a href="#plan"> plans</li></a>
+                <li class="navitems"> <a href="#con"> Contact Us</li></a>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="text">
+                <p> "Elevate Your Fitness Game with Somnath's Gym - The Perfect Place to
+                    Train!"</p>
+            </div>
+        </div>
+        <div class="vid">
+            <video autoplay loop muted class="back">
+              <source
+                src="https://v4.cdnpk.net/videvo_files/video/free/video0458/large_watermarked/_import_60c1caa56dc975.96101826_FPpreview.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="about">
+            <div id="about">
+              <h1>About Page</h1>
+              <p>
+                Welcome to our gym, where we are dedicated to helping you achieve your
+                fitness goals. Our gym is a community-driven space that is committed
+                to providing you with the support and resources you need to reach your
+                full potential. <br />
+      
+                We believe that physical fitness is an essential component of a
+                healthy lifestyle, and our mission is to provide a welcoming and
+                inclusive environment for all individuals to pursue their health and
+                fitness goals. Our gym is equipped with state-of-the-art facilities
+                and equipment, including cardio machines, weightlifting equipment, and
+                functional training areas. <br />
+      
+                Our certified personal trainers are passionate about helping our
+                members reach their goals. They provide personalized training programs
+                tailored to each individual's needs and fitness level, and they offer
+                guidance and support throughout the entire journey. We offer a variety
+                of group fitness classes, including yoga, Pilates, spin, and
+                high-intensity interval training (HIIT). <br />
+      
+                We offer a range of membership options to fit every budget and fitness
+                level. Our memberships include access to all gym facilities and group
+                fitness classes, as well as discounted rates for personal training
+                sessions. Our goal is to make fitness accessible to everyone, and we
+                strive to provide the highest quality services at an affordable price.
+                <br />
+      
+                We are committed to creating a supportive and inclusive environment
+                for all of our members. We believe that fitness should be fun and
+                enjoyable, and we aim to make your workout experience as enjoyable as
+                possible. Our gym is a place where you can come to relieve stress,
+                improve your health, and connect with like-minded individuals who
+                share your passion for fitness. <br />
+      
+                If you have any questions or would like to schedule a tour of our
+                facilities, please don't hesitate to contact us. Our friendly staff is
+                always available to answer your questions and help you get started on
+                your fitness journey. We look forward to seeing you at our gym soon!
+                <br />
+              </p>
+            </div>
+          </div>
+          <span id="chal"></span>
+    <div class="challange">
+      <div class="challenge_text">
+        <h1>Our Challenges</h1>
+        <p>Step by step challenges to keep you strong and motivated</p>
+      </div>
+      <div class="challange_item">
+        <div class="challange_items">
+          <p>
+            Full Body <br />
+            Strong
+          </p>
+          <button class="btn">Join</button>
+        </div>
+        <div class="challange_items">
+          <p>Arms,Arms ,<br />Arms!</p>
+          <button class="btn">Join</button>
+        </div>
+        <div class="challange_items">
+          <p>
+            10 Days Squat <br />
+            challange
+          </p>
+          <button class="btn">Join</button>
+        </div>
+      </div>
+    </div>
+    <div class="plans">
+      <h1 id="plan">Choose your pricing plan</h1>
+      <div class="plan">
+        <h2>Silver Membership</h2>
+        <h4>₹</h4>
+        <h3>2,000</h3>
+        <h2>Every month</h2>
+        <p>Short-term trial for beginners</p>
+        <p>Valid for 2 months</p>
+        <button class="btn">Buy Now</button>
+        <p>
+          Silver Membership <br />
+          Fitness assessment <br />
+          Locker room with showers
+        </p>
+      </div>
+
+      <div class="plan">
+        <h2>Gold Membership</h2>
+        <h4>₹</h4>
+        <h3>2,500</h3>
+        <h2>Every month</h2>
+        <p>Ideal for advanced trainees</p>
+        <p>Valid for 12 months</p>
+        <button class="btn">Buy Now</button>
+        <p>
+          Unlimited Classes <br />
+          Fitness assessment <br />
+          Locker room with showers <br />
+          Free parking
+        </p>
+      </div>
+
+      <div class="plan">
+        <h2>Platinum Membership</h2>
+        <h4>₹</h4>
+        <h3>3,300</h3>
+        <h2>Every month</h2>
+        <p>Perfect for committed trainer</p>
+        <p>Valid for 2 months</p>
+        <button class="btn">Buy Now</button>
+        <p>
+          Unlimited Classes <br />
+          Fitness assessment <br />
+          Locker room with showers <br />
+          Free parking <br />
+          Guest Privileges
+        </p>
+      </div>
+    </div>
+    <div class="subcontainer">
+      <div class="container1">
+        <h1 id="con">Join Best GYM in Pune</h1>
+        <form name="contactForm" action="submit.php" method="post" onsubmit="return validateForm()">
+          <input type="text" name="name" placeholder="Enter Your Name" /><br />
+          <input type="text" name="age" placeholder="Enter Your Age" /><br />
+          <input type="text" name="gender" placeholder="Enter Your Gender" /><br />
+          <input type="text" name="locality" placeholder="Enter Your Locality" /><br />
+          <input type="submit" value="Submit" class="btn" />
+        </form>
+      </div>
+    </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

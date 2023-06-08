@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+header {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+#nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(36, 35, 35);
+  color: white;
+  align-items: center;
+  font-size: 30px;
+}
+#nav li {
+  list-style: none;
+}
+#logo {
+  color: white;
+  font-weight: bold;
+}
+#logo:hover {
+  cursor: pointer;
+}
+.navitems a:hover {
+  cursor: pointer;
+  color: aqua;
+  text-decoration: underline;
+}
+.navitems a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/554/24/desktop-wallpaper-black-fitness-gym-men.jpg");
+  /* background-image: url('https://as2.ftcdn.net/v2/jpg/04/28/63/89/1000_F_428638909_s3VsQ1G2RFqSyPEqv2cQVd2673EfKBN3.jpg'); */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text {
+  margin: 10px;
+}
+.text p {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  width: 50vw;
+  text-align: center;
+  /* border: 1px solid red; */
+  box-shadow: 3px 3px 10px 10px lightslategray;
+  box-sizing: border-box;
+  border-radius: 9px;
+}
+
+.back {
+  margin-top: 10px;
+  width: 100vw;
+  /* height: 50vh; */
+  fill-opacity: cover;
+  object-fit: cover;
+}
+.about {
+  background-image: url("https://t3.ftcdn.net/jpg/01/76/93/96/240_F_176939658_8zEA0BpFq1oYt9Nx19PRa8z87qk3Y8eW.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+#about {
+  color: white;
+}
+#about h1 {
+  color: aqua;
+}
+#about p {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 5px 50px;
+  background-color: white;
+  color: black;
+  border-radius: 9px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: green;
+  color: white;
+}
+
+.challange {
+  margin-top: 10px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  background-color: rgb(5, 7, 21);
+}
+.challenge_text {
+  color: white;
+  /* border: 1px solid rgb(47, 207, 12); */
+  height: 200px;
+  margin: 0 0 200px 0px;
+}
+.challenge_text h1 {
+  margin-top: 50px;
+  font-size: 5rem;
+}
+.challenge_text p {
+  font-size: 3rem;
+}
+.challange_item {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  color: white;
+  margin: 30px;
+}
+.challange_items {
+  background-color: black;
+  color: white;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px 3px lightslategray;
+}
+.challange_items p {
+  font-size: 50px;
+  margin: 30px 0px;
+}
+.challange_items .btn {
+  /* margin-top: 50px; */
+  padding: 5px 100px;
+  margin: 30px;
+}
+
+.plans {
+  /* border: 2px solid rgb(29, 194, 65); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  background-color: black;
+  margin-top: 10px;
+}
+.plans h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(94, 58, 212);
+  margin: 30px 0px;
+}
+.plan {
+  margin-bottom: 10px;
+  text-align: center;
+  /* border: 2px solid red; */
+  width: 350px;
+  height: 100%;
+  background-color: black;
+  border-radius: 9px;
+  color: white;
+  box-shadow: 0px 0px 10px 3px lightslategray;
+}
+.plan h2 {
+  font-size: 40px;
+  margin: 10px 0px;
+}
+.plan h4 {
+  font-size: 50px;
+  margin: 10px 0px;
+}
+.plan h3 {
+  font-size: 60px;
+  margin: 10px 0px;
+}
+.plan p {
+  font-size: 30px;
+  margin: 3px 0px;
+}
+.plan {
+  box-sizing: border-box;
+}
+
+.subcontainer {
+  display: flex;
+  margin-top: 10px;
+  width: auto;
+  height: 100vh;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("https://e0.pxfuel.com/wallpapers/737/692/desktop-wallpaper-black-and-white-sports-polish-gym-fitness-motivation-tapeta-lc0ne-siaoaeuownia-gym-black.jpg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  text-align: center;
+  /* margin: 10px; */
+}
+
+.container1 {
+  box-shadow: 0px 0px 10px 3px lightslategray;
+  /* margin-top: 100px;; */
+  border: 2px solid white;
+  width: auto;
+  height: auto;
+  /* text-align: center; */
+  border-radius: 10px;
+}
+
+.container1 form input {
+  font-size: 25px;
+  padding: 0px 100px;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+form {
+  text-align: center;
+}
+.container li:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+.container1 form .btn {
+  font-size: 25px;
+  padding: 0px 213px;
+  color: white;
+  background: gray;
+  border-radius: 10px;
+}
+.container1 form .btn:hover {
+  background-color: green;
+}
+.container1 h1 {
+  color: aqua;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 678px) {
+  #nav {
+    flex-direction: column;
+  }
+  .container {
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247_1280.jpg");
+    justify-content: center;
+    align-items: center;
+  }
+  .text p {
+    width: 100%;
+    font-size: 50px;
+  }
+  #logo {
+    color: aqua;
+  }
+  .challenge_text p {
+    /* font-size: 3rem; */
+    margin-bottom: 10px;
+  }
+  .challange_item {
+    margin: 70px;
+  }
+  .subcontainer {
+    justify-content: center;
+  }
+
+  .container1 form input {
+    font-size: 25px;
+    padding: 0px 0px;
+    margin: 10px 0px;
+    border-radius: 10px;
+  }
+
+  .container1 form .btn {
+    font-size: 25px;
+    padding: 0px 100px;
+    color: white;
+    background: gray;
+    border-radius: 10px;
+  }
+  .challenge_text h1 {
+    font-size: 60px;
+  }
+}
