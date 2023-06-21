@@ -296,14 +296,14 @@ form {
   }
 
   .container1 form input {
-    font-size: 25px;
+    font-size: 20px;
     padding: 0px 0px;
     margin: 10px 0px;
     border-radius: 10px;
   }
 
   .container1 form .btn {
-    font-size: 25px;
+    font-size: 20px;
     padding: 0px 100px;
     color: white;
     background: gray;
